@@ -1,3 +1,4 @@
+/* common */
 * {
     margin: 0 auto;
     padding: 0;
@@ -7,15 +8,37 @@
 body{
     background-color: white;
 }
-/* common */
-
 
 /* / common */
 
-header,
-footer{
-    background-color: red;
+.first-header {
+    background-color: #E67AE6;
     width: 80%;
-    height: 100px;
+    height: 120px;
+    margin: 15px auto;
+}
+
+.largest-header{
+    background-color: #E1D67A;
+    width: 80%;
+    height: 400px;
+}
+
+.container{
+    background-color: #1286FF;
+    height: 500px;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.content{
+    background-color: green;
+    width: 80%;
+}
+
+footer{
+    background-color: #8702FD;
+    width: 80%;
+    height: 80px;
     margin: 10px auto;
 }
