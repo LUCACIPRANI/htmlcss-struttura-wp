@@ -11,8 +11,7 @@
     clear: both;
 }
 
-/* / common */
-
+/* Fine common */
 
 body{
     background-color: white;
@@ -23,26 +22,29 @@ p {
 }
 
 /* Inizio Header  */
+
+header{
+    width: 80%;
+}
+
 .first-header {
     background-color: #E67AE6;
-    width: 80%;
     height: 120px;
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 .largest-header{
     background-color: #E1D67A;
-    width: 80%;
     height: 400px;
+    margin: 20px auto;
 }
 /* fine Header  */
 
 /* Inizio main  */
 .container{
     background-color: #1286FF;
-    height: 500px;
     width: 80%;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
 .content {
@@ -70,7 +72,6 @@ p {
     margin-top: 15px;
     margin-right: 0;
     float: right;
-
 }
 
 .center {
