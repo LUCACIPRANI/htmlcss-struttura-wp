@@ -49,36 +49,31 @@ header{
 
 .content {
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #ABCFE7;
 }
 
 .intro{
-    background-color: #ABCFE7;
     width: 100%;
     margin: 0 auto;
 }
 
 .left-sidebar {
-    background-color: #ABCFE7;
-    width: calc(100% / 4 - 5px);
-    margin-top: 15px;
+    width: calc(100% / 4 - 10px);
     margin-left: 0;
     float: left;
 }
 
 .right-sidebar {
-    background-color: #ABCFE7;
-    width: calc(100% / 4 - 5px);
-    margin-top: 15px;
+    width: calc(100% / 4 - 10px);
     margin-right: 0;
     float: right;
 }
 
 .center {
-    background-color: #ABCFE7;
-    width: calc((100% / 4 - 5px) * 2);
-    margin-top: 15px;
+    width: calc((100% / 4 - 10px) * 2);
     float: left;
 }
 
